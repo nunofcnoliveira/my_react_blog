@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+}
+
+.No-Match {
+	width: 500px;
+	padding: 40px;
+	margin: 250px auto;
+	background-color: black;
+	color: #999;
+	font-family: "sans-serif";
+	font-size: 44px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+@fontface {
+	font-family: 'Lora';
+	src: url('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic')
+}
+
+@fontface {
+	font-family: 'Open Sans';
+	src: url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800')
+}
+
+body {
+	font-family: 'Lora', 'Times New Roman', serif;
+	font-size: 20px;
+	color: #333333;
+}
+
+h6 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+}
